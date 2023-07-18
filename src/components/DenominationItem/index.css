@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.amount-list {
+  list-style-type: none;
+}
+.amount-btn {
+  height: 56px;
+  width: 120px;
+  border: 1px solid #c4c4c4;
+  border-radius: 6px;
+  background-color: #585076;
+  color: #c7d2fe;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 14px;
+  cursor: pointer;
+  outline: none;
+}

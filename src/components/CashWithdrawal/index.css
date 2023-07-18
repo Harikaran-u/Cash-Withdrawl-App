@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.home-page-cont {
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.withdraw-cont {
+  background-color: #150b3e;
+  width: 420px;
+  height: 520px;
+  border: 0px solid;
+  border-radius: 12px;
+  padding: 25px;
+}
+.user-profile-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo {
+  color: #7c3aed;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  height: 46px;
+  width: 46px;
+  border-radius: 30px;
+  border: 0px solid;
+  background-color: #c7d2fe;
+  align-self: center;
+  padding: 15px;
+  text-align: center;
+}
+.user-name {
+  color: #d4d2db;
+  font-family: Roboto;
+  font-size: 16px;
+  margin-left: 16px;
+}
+.balance-cont {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.balance {
+  color: #382f5a;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 12px;
+  align-self: center;
+}
+.amount-cont {
+  align-self: center;
+  margin-right: 12px;
+}
+.amount {
+  color: #c7d2fe;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 26px;
+}
+.rupees {
+  color: #382f5a;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 12px;
+}
+.denominations-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.withdraw-name {
+  color: #c7d2fe;
+  font-family: Roboto;
+  font-size: 20px;
+}
+.withdraw-info {
+  color: #382f5a;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+}
+.amount-list-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
